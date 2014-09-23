@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en" languagename="English" countrycode="en">
+	<category name="wcf.pillory">
+		<item name="wcf.pillory.warnings"><![CDATA[Warnings]]></item>
+		<item name="wcf.pillory.warnings.noitems"><![CDATA[There currently exists no warnings.]]></item>
+		<item name="wcf.pillory.warnings.judge.unknown"><![CDATA[Unknown]]></item>
+		
+		<item name="wcf.pillory.suspensions"><![CDATA[Suspensions]]></item>
+		<item name="wcf.pillory.suspensions.noitems"><![CDATA[There currently exists no suspensions.]]></item>
+		
+		<item name="wcf.pillory.time"><![CDATA[Date]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.pillory.canSeeWarnings"><![CDATA[Can see warnings]]></item>
+		<item name="wcf.acp.group.option.user.pillory.canSeeSuspensions"><![CDATA[Can see suspensions]]></item>
+	</category>
+</language>

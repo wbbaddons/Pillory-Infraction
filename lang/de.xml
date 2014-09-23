@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.pillory">
+		<item name="wcf.pillory.warnings"><![CDATA[Verwarnungen]]></item>
+		<item name="wcf.pillory.warnings.noitems"><![CDATA[Es wurden bisher keine Verwarnungen ausgesprochen.]]></item>
+		<item name="wcf.pillory.warnings.judge.unknown"><![CDATA[Unbekannt]]></item>
+		
+		<item name="wcf.pillory.suspensions"><![CDATA[Sanktionen]]></item>
+		<item name="wcf.pillory.suspensions.noitems"><![CDATA[Es wurden bisher keine Sanktionen aktiv.]]></item>
+		
+		<item name="wcf.pillory.time"><![CDATA[Datum]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_pillory"><![CDATA[Pranger]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.pillory.canSeeWarnings"><![CDATA[Kann Verwarnungen sehen]]></item>
+		<item name="wcf.acp.group.option.user.pillory.canSeeSuspensions"><![CDATA[Kann Sanktionen sehen]]></item>
+	</category>
+</language>

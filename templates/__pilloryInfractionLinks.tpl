@@ -1,0 +1,2 @@
+{if $__wcf->getSession()->getPermission('user.pillory.canSeeWarnings')}<li{if $type == 'warnings'} class="active"{/if}><a href="{link controller='PilloryWarnings'}{/link}">{lang}wcf.pillory.warnings{/lang}</a></li>{/if}
+{if $__wcf->getSession()->getPermission('user.pillory.canSeeSuspensions')}<li{if $type == 'suspensions'} class="active"{/if}><a href="{link controller='PillorySuspensions'}{/link}">{lang}wcf.pillory.suspensions{/lang}</a></li>{/if}
