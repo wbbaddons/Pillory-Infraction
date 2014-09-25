@@ -6,7 +6,7 @@
 		<item name="wcf.pillory.warnings.judge.unknown"><![CDATA[Unknown]]></item>
 		
 		<item name="wcf.pillory.suspensions"><![CDATA[Suspensions]]></item>
-		<item name="wcf.pillory.suspensions.noitems"><![CDATA[There currently exists no suspensions.]]></item>
+		<item name="wcf.pillory.suspensions.noitems"><![CDATA[There currently exists no activ suspensions.]]></item>
 		
 		<item name="wcf.pillory.time"><![CDATA[Date]]></item>
 	</category>
