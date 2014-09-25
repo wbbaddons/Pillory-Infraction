@@ -27,7 +27,7 @@
 {if !$items}
 	<p class="info">{lang}wcf.pillory.warnings.noitems{/lang}</p>
 {else}
-	<div class="marginTop tabularBox tabularBoxTitle pilloryBanList">
+	<div class="marginTop tabularBox tabularBoxTitle pilloryWarningList">
 		<header>
 			<h2>{lang}wcf.pillory.warnings{/lang} <span class="badge badgeInverse">{#$items}</span></h2>
 		</header>
