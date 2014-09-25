@@ -5,8 +5,9 @@
 		<packagename language="de">Pranger Infraction-System Erweiterung</packagename>
 		<packagedescription><![CDATA[This package extends the pillory to the Infraction System of Woltlab.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Dieses Paket erweitert den Pranger um das Infraction-System von Woltlab.]]></packagedescription>
-		<version>1.0.0</version>
-		<date>2014-09-21</date>
+		<version>1.0.1</version>
+		<date>2014-09-25</date>
+                <license><![CDATA[Creative Commons Attribution-ShareAlike 4.0 <https://creativecommons.org/licenses/by-sa/4.0/legalcode>]]></license>
 	</packageinformation>
 
 	<authorinformation>
@@ -31,6 +32,12 @@
 		<instruction type="userGroupOption">userGroupOption.xml</instruction>
 		
 		<!-- lng -->
+		<instruction type="language">lang/*.xml</instruction>
+	</instructions>
+        
+        <instructions type="update" fromversion="1.0.0">
+		<!-- files -->
+		<instruction type="template">templates.tar</instruction>
 		<instruction type="language">lang/*.xml</instruction>
 	</instructions>
 </package>
